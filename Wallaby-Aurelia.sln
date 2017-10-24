@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wallaby-Aurelia", "Wallaby-Aurelia.csproj", "{831FD8E8-5DE1-4418-9D2A-C7630B145ED1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{831FD8E8-5DE1-4418-9D2A-C7630B145ED1}.Debug|x86.ActiveCfg = Debug|x86
+		{831FD8E8-5DE1-4418-9D2A-C7630B145ED1}.Debug|x86.Build.0 = Debug|x86
+		{831FD8E8-5DE1-4418-9D2A-C7630B145ED1}.Release|x86.ActiveCfg = Release|x86
+		{831FD8E8-5DE1-4418-9D2A-C7630B145ED1}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDFB5784-697E-4A1C-8046-6792B36CD4B5}
+	EndGlobalSection
+EndGlobal

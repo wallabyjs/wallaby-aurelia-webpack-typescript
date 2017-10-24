@@ -1,0 +1,93 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{831FD8E8-5DE1-4418-9D2A-C7630B145ED1}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Wallaby_Aurelia</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include=".editorconfig" />
+    <None Include="aurelia_project\aurelia.json" />
+    <None Include="aurelia_project\generators\attribute.json" />
+    <None Include="aurelia_project\generators\binding-behavior.json" />
+    <None Include="aurelia_project\generators\component.json" />
+    <None Include="aurelia_project\generators\element.json" />
+    <None Include="aurelia_project\generators\generator.json" />
+    <None Include="aurelia_project\generators\task.json" />
+    <None Include="aurelia_project\generators\value-converter.json" />
+    <None Include="aurelia_project\tasks\build.json" />
+    <None Include="aurelia_project\tasks\run.json" />
+    <None Include="aurelia_project\tasks\test.json" />
+    <None Include="package.json" />
+    <None Include="tsconfig.json" />
+    <None Include="tslint.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="favicon.ico" />
+    <Content Include="index.html" />
+    <Content Include="karma.conf.js" />
+    <Content Include="src\app.html" />
+    <Content Include="test\aurelia-karma.js" />
+    <Content Include="wallaby.conf.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="aurelia_project\environments\dev.ts" />
+    <TypeScriptCompile Include="aurelia_project\environments\prod.ts" />
+    <TypeScriptCompile Include="aurelia_project\environments\stage.ts" />
+    <TypeScriptCompile Include="aurelia_project\generators\attribute.ts" />
+    <TypeScriptCompile Include="aurelia_project\generators\binding-behavior.ts" />
+    <TypeScriptCompile Include="aurelia_project\generators\component.ts" />
+    <TypeScriptCompile Include="aurelia_project\generators\element.ts" />
+    <TypeScriptCompile Include="aurelia_project\generators\generator.ts" />
+    <TypeScriptCompile Include="aurelia_project\generators\task.ts" />
+    <TypeScriptCompile Include="aurelia_project\generators\value-converter.ts" />
+    <TypeScriptCompile Include="aurelia_project\tasks\build.ts" />
+    <TypeScriptCompile Include="aurelia_project\tasks\copy-files.ts" />
+    <TypeScriptCompile Include="aurelia_project\tasks\process-css.ts" />
+    <TypeScriptCompile Include="aurelia_project\tasks\process-markup.ts" />
+    <TypeScriptCompile Include="aurelia_project\tasks\run.ts" />
+    <TypeScriptCompile Include="aurelia_project\tasks\test.ts" />
+    <TypeScriptCompile Include="aurelia_project\tasks\transpile.ts" />
+    <TypeScriptCompile Include="src\app.ts" />
+    <TypeScriptCompile Include="src\environment.ts" />
+    <TypeScriptCompile Include="src\main.ts" />
+    <TypeScriptCompile Include="src\resources\index.ts" />
+    <TypeScriptCompile Include="test\unit\app.spec.ts" />
+    <TypeScriptCompile Include="test\unit\setup.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="scripts\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,31 @@
+{
+  "name": "wallaby-aurelia-webpack-typescript",
+  "description": "An Aurelia client application.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "dependencies": {
+    "aurelia-animator-css": "^1.0.0",
+    "aurelia-bootstrapper": "^2.1.1",
+    "aurelia-cookie": "^1.0.10",
+    "aurelia-dialog": "^1.0.0-rc.1.0.3",
+    "aurelia-fetch-client": "^1.1.0",
+    "aurelia-i18n": "^1.2.3"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "@types/jasmine": "^2.5.52",
+    "@types/node": "^8.0.0",
+    "@types/typescript": "^2.0.0",
+    "aurelia-cli": "^0.31.3",
+    "aurelia-loader-webpack": "^2.1.0",
+    "aurelia-testing": "^1.0.0-beta.2.0.0",
+    "aurelia-tools": "^1.0.0",
+    "aurelia-webpack-plugin": "^2.0.0-rc.5",
+    "electron": "^1.7.9",
+    "jasmine-core": "^2.4.1",
+    "typescript": "^2.5.3",
+    "wallaby-webpack": "*",
+    "webpack": "^3.5.5"
+  },
+  "scripts": {}
+}

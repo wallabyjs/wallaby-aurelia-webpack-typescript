@@ -53,7 +53,6 @@
     <Content Include=".gitignore" />
     <Content Include="favicon.ico" />
     <Content Include="index.html" />
-    <Content Include="karma.conf.js" />
     <Content Include="src\app.html" />
     <Content Include="test\aurelia-karma.js" />
     <Content Include="wallaby.conf.js" />
@@ -82,9 +81,6 @@
     <TypeScriptCompile Include="src\resources\index.ts" />
     <TypeScriptCompile Include="test\unit\app.spec.ts" />
     <TypeScriptCompile Include="test\unit\setup.ts" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="scripts\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>
